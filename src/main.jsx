@@ -6,8 +6,7 @@ import { BrowserRouter, Router } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 createRoot(document.getElementById('root')).render(
-  <Router/>
-  // <BrowserRouter>
-  //   <App />
-  // </BrowserRouter>,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
 )
